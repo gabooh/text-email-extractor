@@ -14,7 +14,7 @@ var emails = new Set();
 
 program
     .version('1.0.0')
-    .usage('[filename]|[stdin]')
+    .usage('[filename]|[stdin] [options]')
     .option('-b, --blacklist <filename>', 'A list of email to filter out', parseBlacklistFile);
 
 program.parse(process.argv);
