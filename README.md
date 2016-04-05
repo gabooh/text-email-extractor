@@ -11,3 +11,5 @@ Extract emails from a text file.
     -h, --help                  output usage information
     -V, --version               output the version number
     -b, --blacklist <filename>  A list of email to filter out
+
+ The blacklist file should contain one email per line. * wildcard can be used.
