@@ -1,10 +1,12 @@
-text-email-extractor
+# text-email-extractor
 
 Extract emails from a text file.
 
-# Usage: index [filename]|[stdin]
+# Usage
 
-  Options:
+`text-email-extract [filename]|[stdin] [options]`
+
+# Options
 
     -h, --help                  output usage information
     -V, --version               output the version number
