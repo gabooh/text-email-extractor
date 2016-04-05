@@ -1,17 +1,29 @@
 {
   "name": "text-email-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract emails from text",
+  "keywords": [
+    "email",
+    "extract"
+  ],
   "main": "text-email-extractor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gaël Beaudoin",
   "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabooh/text-email-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabooh/text-email-extractor/issues"
+  },
   "dependencies": {
     "commander": "^2.9",
     "email-addresses": "^2.0",
     "lodash": "^4.8.2",
     "node-wildcard": "0.0.8"
-  }
+  },
+  "bin": "./text-email-extractor.js"
 }
