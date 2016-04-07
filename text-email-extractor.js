@@ -15,9 +15,8 @@ var emails = new Set();
 program
     .version('1.0.0')
     .usage('[filename]|[stdin] [options]')
-    .option('-b, --blacklist <filename>', 'A list of email to filter out', parseBlacklistFile);
-
-program.parse(process.argv);
+    .option('-b, --blacklist <filename>', 'A list of email to filter out', parseBlacklistFile)
+    .parse(process.argv);
 
 var textInputStream;
 if (program.args.length > 1) {
@@ -27,6 +26,10 @@ if (program.args.length > 1) {
     textInputStream = fs.createReadStream(program.args[0]);
 } else {
     textInputStream = process.stdin;
+}
+
+if (program.blacklist !== true) {
+    parseText();
 }
 
 /**
