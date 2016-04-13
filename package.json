@@ -1,6 +1,6 @@
 {
   "name": "text-email-extractor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extract emails from text",
   "keywords": [
     "email",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "commander": "^2.9",
-    "email-addresses": "^2.0",
+    "email-regex": "^1.0.0",
     "lodash": "^4.8.2",
     "node-wildcard": "0.0.8"
   },
