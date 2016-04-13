@@ -5,7 +5,6 @@
 const program = require('commander');
 const readline = require('readline');
 const fs = require('fs');
-const emailRegex = require('email-regex');
 const wildcard = require('node-wildcard');
 const _ = require('lodash');
 
@@ -49,7 +48,7 @@ function parseBlacklistFile(filename) {
     const rl = readline.createInterface({input: readStream});
 
     rl.on('line', (line) => {
-        blacklistedEmails.push(line);
+        blacklistedEmails.push(line.toLowerCase());
     });
 
     rl.on('close', ()=> {
@@ -65,13 +64,15 @@ function parseText() {
     let foundEmails;
     let matchingBlacklistedEntryFound = false;
     rl.on('line', (line) => {
-        foundEmails = line.match(emailRegex());
+
+        foundEmails = line.toLowerCase().match(/[^\>\<;:\(\)\[\] =\/]+@[^\>\<;:\(\)\[\] =\/]+\.[^\>\<;:\(\)\[\] =\/]+/);
         if (!_.isArray(foundEmails)) {
             return;
         }
 
         for (let email of foundEmails) {
             matchingBlacklistedEntryFound = false;
+            email = email.trim();
             for (let blacklistedEmail of blacklistedEmails) {
                 if (wildcard(email, blacklistedEmail)) {
                     matchingBlacklistedEntryFound = true;
@@ -97,4 +98,3 @@ function processResults() {
         console.log(email);
     }
 }
-
