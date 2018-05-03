@@ -65,7 +65,6 @@ function parseText () {
   let matchingBlacklistedEntryFound = false
   rl.on('line', (line) => {
     foundEmails = line.toLowerCase().match(/[^&'><;:()[\] =/]+@[^&'><;:()[\] =/]+\.[^&'><;:()[\] =/]+/)
-    // foundEmails = line.toLowerCase().match(/[^&'\>\<;:()\[\] =\/]+@[^&'\>\<;:()\[\] =\/]+\.[^&'\>\<;:()\[\] =\/]+/)
     if (!_.isArray(foundEmails)) {
       return
     }
