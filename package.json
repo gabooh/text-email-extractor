@@ -8,6 +8,7 @@
   ],
   "main": "text-email-extractor.js",
   "scripts": {
+    "start": "node text-email-extractor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gaël Beaudoin",
@@ -20,9 +21,12 @@
     "url": "https://github.com/gabooh/text-email-extractor/issues"
   },
   "dependencies": {
-    "commander": "^2.9",
-    "lodash": "^4.8.2",
-    "node-wildcard": "0.0.8"
+    "commander": "^2.15",
+    "lodash": "^4.17.10",
+    "node-wildcard": "0.0.9"
   },
-  "bin": "./text-email-extractor.js"
+  "bin": "./text-email-extractor.js",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
 }
