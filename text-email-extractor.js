@@ -11,10 +11,10 @@ const _ = require('lodash')
 const blacklistedEmails = []
 let emails = new Set()
 
-program
-  .version('1.1.0')
+program.version('1.1.0')
   .usage('[filename]|[stdin] [options]')
-  .option('-b, --blacklist <filename>', 'A list of email to filter out', parseBlacklistFile)
+  .option('-b, --blacklist <filename>', 'A list of email to filter out',
+    parseBlacklistFile)
   .parse(process.argv)
 
 let textInputStream
@@ -45,7 +45,7 @@ function parseBlacklistFile (filename) {
     console.log(error)
   })
 
-  const rl = readline.createInterface({input: readStream})
+  const rl = readline.createInterface({ input: readStream })
 
   rl.on('line', (line) => {
     blacklistedEmails.push(line.toLowerCase())
@@ -60,11 +60,12 @@ function parseBlacklistFile (filename) {
  * Parse the text and extract emails
  */
 function parseText () {
-  const rl = readline.createInterface({input: textInputStream})
+  const rl = readline.createInterface({ input: textInputStream })
   let foundEmails
   let matchingBlacklistedEntryFound = false
   rl.on('line', (line) => {
-    foundEmails = line.toLowerCase().match(/[^&'><;:()[\] =/]+@[^&'><;:()[\] =/]+\.[^&'><;:()[\] =/]+/)
+    foundEmails = line.toLowerCase()
+      .match(/[^&'><;:()[\] =/]+@[^&'><;:()[\] =/]+\.[^&'><;:()[\] =/]+/)
     if (!_.isArray(foundEmails)) {
       return
     }
