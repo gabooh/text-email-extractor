@@ -12,7 +12,7 @@ const blacklistedEmails = []
 let emails = new Set()
 
 program
-  .version('1.0.0')
+  .version('1.1.0')
   .usage('[filename]|[stdin] [options]')
   .option('-b, --blacklist <filename>', 'A list of email to filter out', parseBlacklistFile)
   .parse(process.argv)
