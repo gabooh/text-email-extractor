@@ -11,7 +11,7 @@ const _ = require('lodash')
 const blacklistedEmails = []
 let emails = new Set()
 
-program.version('1.1.0')
+program.version('1.0.7')
   .usage('[filename]|[stdin] [options]')
   .option('-b, --blacklist <filename>', 'A list of email to filter out',
     parseBlacklistFile)
