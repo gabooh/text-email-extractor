@@ -32,7 +32,7 @@ if (program.blacklist !== true) {
 }
 
 /**
- * Parse list of blacklisted email adresses if provided.
+ * Parse list of blacklisted email addresses if provided.
  * @param filename the filename of the blacklist file
  */
 function parseBlacklistFile (filename) {
