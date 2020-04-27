@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-'use strict'
-
 const program = require('commander')
 const readline = require('readline')
 const fs = require('fs')
@@ -11,11 +9,8 @@ const _ = require('lodash')
 const blacklistedEmails = []
 let emails = new Set()
 
-program.version('1.0.7')
-  .usage('[filename]|[stdin] [options]')
-  .option('-b, --blacklist <filename>', 'A list of email to filter out',
-    parseBlacklistFile)
-  .parse(process.argv)
+program.version('1.0.8').usage('[filename]|[stdin] [options]').option('-b, --blacklist <filename>', 'A list of email to filter out',
+  parseBlacklistFile).parse(process.argv)
 
 let textInputStream
 if (program.args.length > 1) {
@@ -64,8 +59,7 @@ function parseText () {
   let foundEmails
   let matchingBlacklistedEntryFound = false
   rl.on('line', (line) => {
-    foundEmails = line.toLowerCase()
-      .match(/[^&'><;:()[\] =/]+@[^&'><;:()[\] =/]+\.[^&'><;:()[\] =/]+/)
+    foundEmails = line.toLowerCase().match(/[^&'><;:()[\] =/]+@[^&'><;:()[\] =/]+\.[^&'><;:()[\] =/]+/)
     if (!_.isArray(foundEmails)) {
       return
     }
