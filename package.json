@@ -21,7 +21,7 @@
     "url": "https://github.com/gabooh/text-email-extractor/issues"
   },
   "dependencies": {
-    "commander": "^6.1.0",
+    "commander": "^7.0.0",
     "lodash": "^4.17.20",
     "node-wildcard": "0.0.9"
   },
