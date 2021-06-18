@@ -1,20 +1,26 @@
 #!/usr/bin/env node
 
-const program = require('commander')
-const readline = require('readline')
-const fs = require('fs')
-const wildcard = require('node-wildcard')
-const _ = require('lodash')
+import { Command } from 'commander'
+import readline from 'readline'
+import fs from 'fs'
+import wildcard from 'node-wildcard'
+import _ from 'lodash'
 
-const blacklistedEmails = []
+import parseBlacklistFile from './src/blacklist.js'
+
+let blacklistedEmails = []
 let emails = new Set()
-
-program.version('1.0.8').usage('[filename]|[stdin] [options]').option('-b, --blacklist <filename>', 'A list of email to filter out',
-  parseBlacklistFile).parse(process.argv)
-
 let textInputStream
+
+const program = new Command()
+program.version('1.0.9').
+  usage('[filename]|[stdin] [options]').
+  option('-b, --blacklist <filename>', 'A list of e-mails to filter out')
+
+program.parse(process.argv)
+
 if (program.args.length > 1) {
-  console.log('Too many arguments.')
+  console.error('Too many arguments.')
   process.exit(1)
 } else if (program.args.length === 1) {
   textInputStream = fs.createReadStream(program.args[0])
@@ -22,33 +28,22 @@ if (program.args.length > 1) {
   textInputStream = process.stdin
 }
 
-if (program.blacklist !== true) {
-  parseText()
+if (program.opts().blacklist?.length > 0) {
+  await handleBlacklistOption(program.opts().blacklist)
 }
 
-/**
- * Parse list of blacklisted email addresses if provided.
- * @param filename the filename of the blacklist file
- */
-function parseBlacklistFile (filename) {
-  let readStream = fs.createReadStream(filename)
-  readStream.on('error', (error) => {
-    if (error.code === 'ENOENT') {
-      console.error(`Error, file not found : ${filename}`)
-      process.exit(-2)
+parseText()
+
+async function handleBlacklistOption (filename) {
+  try {
+    const result = await parseBlacklistFile(filename)
+    blacklistedEmails.push(...result)
+  } catch (e) {
+    if (e.message === 'file not found') {
+      console.error(`blacklist file not found : ${filename}`)
+      process.exit(10)
     }
-    console.log(error)
-  })
-
-  const rl = readline.createInterface({ input: readStream })
-
-  rl.on('line', (line) => {
-    blacklistedEmails.push(line.toLowerCase())
-  })
-
-  rl.on('close', () => {
-    parseText()
-  })
+  }
 }
 
 /**

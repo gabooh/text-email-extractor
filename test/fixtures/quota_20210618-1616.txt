@@ -1,0 +1,295 @@
+Sujet : Undelivered Mail Returned to Sender
+De : MAILER-DAEMON@livre-rare-book.com  (Mail Delivery System)
+Date : 05/02/2021 à 16:11
+Pour : no-reply@notresuperdomaine.com
+
+This is the mail system at host rey.livre-rare-book.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<welala.jose@testmail.com>: host alt1.testmail-smtp-in.l.google.com[]
+    said: 452-4.2.2 The email account that you tried to reach is over quota.
+    Please direct 452-4.2.2 the recipient to 452 4.2.2
+    https://support.google.com/mail/?p=OverQuotaTemp js14si494997ejb.584 -
+    gsmtp (in reply to RCPT TO command)
+
+
+Reporting-MTA: dns; rey.livre-rare-book.com
+X-Postfix-Queue-ID: D5FF024620
+X-Postfix-Sender: rfc822; no-reply@notresuperdomaine.com
+Arrival-Date: Sat, 30 Jan 2021 15:56:07 +0100 (CET)
+
+Final-Recipient: rfc822; welala.jose@testmail.com
+Original-Recipient: rfc822;welala.jose@testmail.com
+Action: failed
+Status: 4.2.2
+Remote-MTA: dns; alt1.testmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 452-4.2.2 The email account that you tried to reach is
+    over quota. Please direct 452-4.2.2 the recipient to 452 4.2.2
+    https://support.google.com/mail/?p=OverQuotaTemp js14si494997ejb.584 -
+    gsmtp
+
+
+ForwardedMessage.eml
+Sujet :
+Deux événements exceptionnels pour le livre ancien
+De :
+no-reply@notresuperdomaine.com (Livre Rare Book)
+Date :
+30/01/2021 à 15:56
+Pour :
+welala.jose@testmail.com
+
+Bonjour à tous,
+
+Nous avons décidé de vous faire part de deux événements exceptionnels concernant l'actualité du livre ancien, qui vont nous accompagner tout au long de l'année :
+
+    => e-Rendez-vous Amor Liborum
+    A partir du mercredi 3 février.
+
+    img
+    Un mini salon virtuel le 3 de chaque mois, pendant 3 jours, 3 livres par libraire,
+    organisé par le Syndicat de la librairie ancienne et moderne S.L.A.M.
+    => Le SAG XX
+    19-21 novembre 2021
+
+    img
+    Salon des Avant-Gardes du XXe au Réfectoire des Cordeliers à Paris.
+    Pour la première fois, les avant-gardes du XXe siècle réunis dans un salon !
+    A l'encontre de la mode les avant-gardes ne se démodent pas.
+
+
+
+Enfin : Téléchargez notre Application LRB, sur votre tablette ou votre téléphone, qui vous permet, en plus de toutes les autres fonctionnalités, de situer les libraires à proximité afin d’aller leur rendre visite. C'est pour une fois un outil informatique qui renvoie vers les librairies !
+
+Avec nos meilleurs vœux et de belles lectures pour cette année,
+L'équipe LRB
+
+Contacter Livre Rare Book
+
+Pour gérer votre communication avec LRB :
+Je souhaite recevoir les informations de Livre Rare Book (Nouveautés, invitations, etc)
+
+Je ne souhaite pas recevoir les informations de Livre Rare Book
+
+Pièces jointes :
+ForwardedMessage.eml	25,6 Ko
+
+-------------------------
+
+Sujet : Undelivered Mail Returned to Sender
+De : MAILER-DAEMON@livre-rare-book.com (Mail Delivery System)
+Date : 26/05/2021 à 12:49
+Pour : no-reply@notresuperdomaine.com
+
+This is the mail system at host rey.livre-rare-book.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<voovndf887@testdomain.fr>: host smtp-in.orange.fr[80.12.242.9] said: 552 5.1.1
+    Boite du destinataire pleine. Recipient overquota. OFR_417 [417] (in reply
+    to RCPT TO command)
+
+
+Reporting-MTA: dns; rey.livre-rare-book.com
+X-Postfix-Queue-ID: 555BA22A52
+X-Postfix-Sender: rfc822; no-reply@notresuperdomaine.com
+Arrival-Date: Wed, 26 May 2021 12:48:59 +0200 (CEST)
+
+Final-Recipient: rfc822; voovndf887@testdomain.fr
+Original-Recipient: rfc822;voovndf887@testdomain.fr
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; smtp-in.orange.fr
+Diagnostic-Code: smtp; 552 5.1.1 Boite du destinataire pleine. Recipient
+    overquota. OFR_417 [417]
+
+
+ForwardedMessage.eml
+Sujet :
+Livre Rare Book se déconfine
+De :
+Livre Rare Book <no-reply@notresuperdomaine.com>
+Date :
+26/05/2021 à 12:48
+Pour :
+voovndf887@testdomain.fr
+
+Livre Rare Book œuvre pour l’indépendance et la spécificité du métier de libraire
+
+Faire un TocTic-LRB ?
+Vous avez une bonne idée pour présenter votre travail ? Réalisez vous même une vidéo courte – une minute environ - (avec votre téléphone) ayant pour sujet : Votre librairie, Vous, Le livre, Votre métier, etc… Humoristique, sérieuse, surréaliste...
+Nous mettrons en place votre vidéo sur votre page d’accueil.
+Rejoignez Livre Rare Book.
+
+Vous avez besoin d’un outil performant pour gérer votre stock de livres ?
+Vous voulez enregistrer des milliers d’images et pouvoir les exporter vers les sites ? Vous voulez créer un catalogue papier ? Vous voulez sélectionner immédiatement quelques livres ? Vous voulez pouvoir consulter votre stock et travailler à distance ? Par l’expérience que nous avons accumulée depuis plusieurs décennies, avec les libraires, dans l’élaboration, la gestion, la maintenance, de l’outil de gestion « Caminho », tout cela est possible.
+Plus d'information sur Caminho
+
+Votre site internet ?
+Vous voulez affirmer votre identité sur le web ?
+Nous vous proposons un outil simple pour mettre en valeur votre stock, votre spécificité et vos services : un site pour votre librairie, une vitrine qui vous représente.
+
+Vous avez peut être d’autres idées, d’autres besoins ? Ecrivez-nous.
+--------------------------------------------------
+
+Préférences de communication :
+Je souhaite recevoir les informations de Livre Rare Book (Nouveautés, invitations, etc). 3 à 4 e-mails par an.
+Je ne souhaite pas recevoir les informations de Livre Rare Book
+
+Pièces jointes :
+ForwardedMessage.eml	5,6 Ko
+
+-------------------------
+
+Sujet : Undelivered Mail Returned to Sender
+De : "Mail Delivery System" <MAILER-DAEMON@orange.fr>
+Date : 26/05/2021 à 13:03
+Pour : no-reply@notresuperdomaine.com
+
+Nous sommes desoles de vous informer que votre message n a pas
+pu etre remis a un ou plusieurs de ses destinataires.
+Ceci est un message automatique genere par le serveur mwinf5d89.orange.fr.
+Merci de ne pas y repondre.
+
+This is the mail system at host mwinf5d89.orange.fr.
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients.
+
+                  The mail system
+
+<anothertstemail@testmail.com>: host testmail.com[173.194.76.26] said: 552
+5.2.2  https://support.google.com/mail/?p=OverQuotaPerm v20si15930885wra.346 - gsmtp
+ 
+
+
+ForwardedMessage.eml
+Sujet :
+Livre Rare Book se déconfine
+De :
+Livre Rare Book <no-reply@notresuperdomaine.com>
+Date :
+26/05/2021 à 13:02
+Pour :
+tomdelecourt@unautredomaine.fr
+
+Livre Rare Book Åuvre pour lâindÃ©pendance et la spÃ©cificitÃ© du mÃ©tier de libraire
+
+Faire un TocTic-LRB ?
+Vous avez une bonne idÃ©e pour prÃ©senter votre travail ? RÃ©alisez vous mÃªme une vidÃ©o courte â une minute environ - (avec votre tÃ©lÃ©phone) ayant pour sujet : Votre librairie, Vous, Le livre, Votre mÃ©tier, etcâ¦ Humoristique, sÃ©rieuse, surrÃ©aliste...
+Nous mettrons en place votre vidÃ©o sur votre page dâaccueil.
+Rejoignez Livre Rare Book.
+
+Vous avez besoin dâun outil performant pour gÃ©rer votre stock de livres ?
+Vous voulez enregistrer des milliers dâimages et pouvoir les exporter vers les sites ? Vous voulez crÃ©er un catalogue papier ? Vous voulez sÃ©lectionner immÃ©diatement quelques livres ? Vous voulez pouvoir consulter votre stock et travailler Ã  distance ? Par lâexpÃ©rience que nous avons accumulÃ©e depuis plusieurs dÃ©cennies, avec les libraires, dans lâÃ©laboration, la gestion, la maintenance, de lâoutil de gestion Â« Caminho Â», tout cela est possible.
+Plus d'information sur Caminho
+
+Votre site internet ?
+Vous voulez affirmer votre identitÃ© sur le web ?
+Nous vous proposons un outil simple pour mettre en valeur votre stock, votre spÃ©cificitÃ© et vos services : un site pour votre librairie, une vitrine qui vous reprÃ©sente.
+
+Vous avez peut Ãªtre dâautres idÃ©es, dâautres besoins ? Ecrivez-nous.
+--------------------------------------------------
+
+PrÃ©fÃ©rences de communication :
+Je souhaite recevoir les informations de Livre Rare Book (NouveautÃ©s, invitations, etc). 3 Ã  4 e-mails par an.
+Je ne souhaite pas recevoir les informations de Livre Rare Book
+
+Pièces jointes :
+ForwardedMessage.eml	7,5 Ko
+
+-------------------------
+
+Sujet : Undelivered Mail Returned to Sender
+De : MAILER-DAEMON@livre-rare-book.com (Mail Delivery System)
+Date : 26/05/2021 à 14:45
+Pour : no-reply@notresuperdomaine.com
+
+This is the mail system at host rey.livre-rare-book.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<deslivressuper@icilesmail.com>: host testmail-smtp-in.l.google.com[64.233.166.26]
+    said: 552-5.2.2 The email account that you tried to reach is over quota and
+    inactive. 552-5.2.2 Please direct the recipient to 552 5.2.2
+    https://support.google.com/mail/?p=OverQuotaPerm g11si13220457wmq.154 -
+    gsmtp (in reply to RCPT TO command)
+
+
+Reporting-MTA: dns; rey.livre-rare-book.com
+X-Postfix-Queue-ID: 7983622A7D
+X-Postfix-Sender: rfc822; no-reply@notresuperdomaine.com
+Arrival-Date: Wed, 26 May 2021 14:44:32 +0200 (CEST)
+
+Final-Recipient: rfc822; deslivressuper@icilesmail.com
+Original-Recipient: rfc822;deslivressuper@icilesmail.com
+Action: failed
+Status: 5.2.2
+Remote-MTA: dns; testmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 552-5.2.2 The email account that you tried to reach is
+    over quota and inactive. 552-5.2.2 Please direct the recipient to 552 5.2.2
+    https://support.google.com/mail/?p=OverQuotaPerm g11si13220457wmq.154 -
+    gsmtp
+
+
+ForwardedMessage.eml
+Sujet :
+Livre Rare Book se déconfine
+De :
+Livre Rare Book <no-reply@notresuperdomaine.com>
+Date :
+26/05/2021 à 14:44
+Pour :
+deslivressuper@icilesmail.com
+
+Livre Rare Book œuvre pour l’indépendance et la spécificité du métier de libraire
+
+Faire un TocTic-LRB ?
+Vous avez une bonne idée pour présenter votre travail ? Réalisez vous même une vidéo courte – une minute environ - (avec votre téléphone) ayant pour sujet : Votre librairie, Vous, Le livre, Votre métier, etc… Humoristique, sérieuse, surréaliste...
+Nous mettrons en place votre vidéo sur votre page d’accueil.
+Rejoignez Livre Rare Book.
+
+Vous avez besoin d’un outil performant pour gérer votre stock de livres ?
+Vous voulez enregistrer des milliers d’images et pouvoir les exporter vers les sites ? Vous voulez créer un catalogue papier ? Vous voulez sélectionner immédiatement quelques livres ? Vous voulez pouvoir consulter votre stock et travailler à distance ? Par l’expérience que nous avons accumulée depuis plusieurs décennies, avec les libraires, dans l’élaboration, la gestion, la maintenance, de l’outil de gestion « Caminho », tout cela est possible.
+Plus d'information sur Caminho
+
+Votre site internet ?
+Vous voulez affirmer votre identité sur le web ?
+Nous vous proposons un outil simple pour mettre en valeur votre stock, votre spécificité et vos services : un site pour votre librairie, une vitrine qui vous représente.
+
+Vous avez peut être d’autres idées, d’autres besoins ? Ecrivez-nous.
+--------------------------------------------------
+
+Préférences de communication :
+Je souhaite recevoir les informations de Livre Rare Book (Nouveautés, invitations, etc). 3 à 4 e-mails par an.
+Je ne souhaite pas recevoir les informations de Livre Rare Book
+
+Pièces jointes :
+ForwardedMessage.eml	5,7 Ko
+
+-------------------------
+
