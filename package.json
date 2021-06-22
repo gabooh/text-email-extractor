@@ -29,5 +29,8 @@
   "bin": "./text-email-extractor.js",
   "devDependencies": {
     "jest": "^27.0.4"
+  },
+  "engines": {
+    "node": "14"
   }
 }
