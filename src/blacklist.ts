@@ -5,7 +5,7 @@ import readline from 'readline'
  * Parse list of blacklisted email addresses if provided.
  * @param filename the filename of the blacklist file, must be UTF-8 encoded
  */
-async function parseBlacklistFile (filename) {
+async function parseBlacklistFile (filename: string) {
   const lines = []
 
   if (!fs.existsSync(filename)) {

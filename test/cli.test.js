@@ -24,7 +24,6 @@ test('parse text file with blacklist file', async () => {
       '--blacklist',
       './test/fixtures/email-blacklist.txt'
     ], '.')
-  console.log(result)
   expect(result.code).toBe(0)
   expect(result.error).toBeNull()
   expect(result.stdout).toBeDefined()
@@ -34,7 +33,6 @@ test('parse text file with blacklist file', async () => {
   expect(emails[0]).toBe('welala.jose@testmail.com')
   expect(emails[4]).toBe('deslivressuper@icilesmail.com')
   expect(emails[5]).toHaveLength(0) // because of last \n and the split call
-  console.log(emails)
 })
 
 test('parse text file with invalid blacklist file', async () => {
@@ -45,12 +43,12 @@ test('parse text file with invalid blacklist file', async () => {
       './not-existing-file.txt'
     ], '.')
   expect(result.code).toBe(10)
-  expect(result.stderr).toBe('blacklist file not found : ./not-existing-file.txt')
+  expect(result.stderr.trim()).toBe('blacklist file not found : ./not-existing-file.txt')
 })
 
 function cli (args, cwd) {
   return new Promise(resolve => {
-    exec(`node ${path.resolve('./text-email-extractor')} ${args.join(' ')}`,
+    exec(`node ${path.resolve('./src/text-email-extractor')} ${args.join(' ')}`,
       { cwd },
       (error, stdout, stderr) => {
         resolve({
