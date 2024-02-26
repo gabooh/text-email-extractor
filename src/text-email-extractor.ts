@@ -12,7 +12,7 @@ let emails = new Set()
 let textInputStream: fs.ReadStream | tty.ReadStream
 
 const program = new Command()
-program.version('1.2.0').usage('[filename]|[stdin] [options]').option('-b, --blacklist <filename>', 'A list of e-mails to filter out')
+program.version('1.2.1').usage('[filename]|[stdin] [options]').option('-b, --blacklist <filename>', 'A list of e-mails to filter out')
 
 async function main () {
   program.parse(process.argv)
