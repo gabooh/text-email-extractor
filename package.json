@@ -2,7 +2,7 @@
   "name": "text-email-extractor",
   "version": "1.1.0",
   "type": "module",
-  "description": "Extract emails from text",
+  "description": "Extract e-mails from text",
   "keywords": [
     "email",
     "extract"
