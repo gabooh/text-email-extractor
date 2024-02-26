@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Command } from 'commander'
 import parseBlacklistFile from './blacklist.js'
 import fs from 'fs'

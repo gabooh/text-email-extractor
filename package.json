@@ -7,12 +7,13 @@
     "email",
     "extract"
   ],
-  "main": "text-email-extractor.js",
+  "main": "src/text-email-extractor.js",
   "scripts": {
     "build": "tsc",
     "start": "node src/text-email-extractor.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
+  "bin": "src/text-email-extractor.js",
   "author": "Gaël Beaudoin",
   "license": "GPL-2.0",
   "repository": {
@@ -36,7 +37,6 @@
   },
   "files": [
     "README.md",
-    "src/text-email-extractor.ts",
     "package.json",
     "src/"
   ]
